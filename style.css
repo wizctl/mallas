@@ -334,9 +334,11 @@ body {
   background-size: cover;
   min-width: 36.25rem;
   height: 50vh;
+  border-radius: 1rem;
 }
 #sm-banner .banner-box2{
   background-image:url('img/banner/banner2.jpg');
+  border-radius: 1rem;
 }
 
 #sm-banner h4{

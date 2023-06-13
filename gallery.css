@@ -10,12 +10,16 @@
   grid-auto-rows: 250px;
   grid-auto-flow: dense;
   grid-gap: 20px;
+  
 }
 
 .grid-gallery .grid-item {
   position: relative;
-  background-color: #efefef;
+  border-radius: 1rem;
+  background-color: #000000;
   overflow: hidden;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.3);
+  
 }
 
 .grid-gallery .grid-item img {
@@ -27,6 +31,7 @@
 }
 .grid-gallery .grid-item:hover  {
   border-radius: 1rem;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.5);
 }
 
 .grid-gallery .grid-item:hover img {
