@@ -1,17 +1,25 @@
 // Script for navigation bar
-const bar = document.getElementById('bar');
-const nav = document.getElementById('navbar')
-const close = document.getElementById('close')
-if(bar)
-bar.addEventListener('click',()=>{
-    nav.classList.add('active')
-})
+// const bar = document.getElementById('bar');
+// const nav = document.getElementById('navbar')
+// const close = document.getElementById('close')
 
-if(close)
-close.addEventListener('click',()=>{
-    nav.classList.remove('active')
-})
+// if(bar)
+// bar.addEventListener('click',()=>{
+//     nav.classList.add('active')
+// })
 
+// if(close)
+// close.addEventListener('click',()=>{
+//     nav.classList.remove('active')
+// })
+
+bars=document.querySelector('.bars')
+// if(bars)
+bars.addEventListener('click',()=>{
+    nav=document.querySelector('.nav-bar')
+    console.log(nav)
+    nav.classList.toggle('active')
+})
 var swiper = new Swiper(".slide-content", {
     slidesPerView: 3,
     spaceBetween: 25,
