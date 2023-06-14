@@ -147,7 +147,7 @@ body {
   align-items: center;
 }
 #hero{
-  background-image: url('img/hero.jpg');
+  background-image: url('/img/hero.jpg');
   height: 90vh;;
   width: 100%;
   background-size: cover;
@@ -291,7 +291,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('img/banner/banner-malla.jpg');
+  background-image: url('/img/banner/banner-malla.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -534,14 +534,14 @@ footer .copyright{
     font-size: 1.5rem;
     padding: 1.25rem;
   }
-  #close{
+  /* #close{
     display: initial;
     position: absolute;
     top: 1.875rem;
     left: 1.875rem;
     color: #000;
     font-size: 1.5rem;  
-  }
+  } */
   #hero {
     height: 70vh;
     padding: 0 5rem;
@@ -643,14 +643,4 @@ footer .copyright {
   text-align: start;
 }
 }
-
-@media (min-width:1900px) {
-  #sm-banner .banner-box {
-    background-position: 50%;
-    width: 48%;
-    height: 50vh;
-}
-#close{
-  display: none;
-}
-}
+ 
