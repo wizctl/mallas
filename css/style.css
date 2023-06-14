@@ -159,7 +159,7 @@ body {
   justify-content: center;
 }
 #hero button{
-  background-image: url("img/button2.png");
+  background-image: url("/img/button2.png");
   background-color: transparent;
   color: #ffffff;
   border: 0;
