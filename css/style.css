@@ -147,7 +147,7 @@ body {
   align-items: center;
 }
 #hero{
-  background-image: url('/img/hero.jpg');
+  background-image: url('img/hero.jpg');
   height: 90vh;;
   width: 100%;
   background-size: cover;
@@ -291,7 +291,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('/img/banner/banner-malla.jpg');
+  background-image: url('img/banner/banner-malla.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
