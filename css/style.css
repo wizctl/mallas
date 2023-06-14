@@ -147,7 +147,7 @@ body {
   align-items: center;
 }
 #hero{
-  background-image: url('/img/hero.jpg');
+  background-image: url("/img/hero.jpg");
   height: 90vh;;
   width: 100%;
   background-size: cover;
@@ -159,7 +159,7 @@ body {
   justify-content: center;
 }
 #hero button{
-  background-image: url('/img/button2.png');
+  background-image: url("img/button2.png");
   background-color: transparent;
   color: #ffffff;
   border: 0;
