@@ -291,7 +291,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('/img/banner/banner-malla.jpg');
+  background-image: url('../img/banner/banner-malla.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
